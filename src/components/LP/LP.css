@@ -1,0 +1,12 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+video {
+  height: 100%; /* Adjust the height to fill the container */
+  width: 100%; /* Adjust the width to fill the container */
+  object-fit: cover; /* Zoom into the video while maintaining aspect ratio */
+  transform: scale(1.8);
+}

@@ -1,0 +1,106 @@
+#footer {
+  height: auto; /* Change height to auto for responsiveness */
+  width: 92.33%;
+  background-color: #111827;
+  color: #e867fc;
+  display: flex;
+  flex-direction: column; /* Adjust layout for responsiveness */
+  align-items: center; /* Center items vertically */
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.newsletter input {
+  margin-top: 10px;
+  margin-right: 2.5px;
+  height: 35px;
+  width: 100%; /* Adjust input width to fill the container */
+  max-width: 300px; /* Limit input width for larger screens */
+  border-radius: 8px;
+  padding: 0 12px;
+  border: none;
+}
+
+.newsletter {
+  font-size: 1.5rem;
+  text-align: center; /* Center text */
+}
+
+#newsbutton {
+  height: 38px;
+  width: 100%;
+  max-width: 120px;
+  border: none;
+  border-radius: 8px;
+  background-color: #e867fc;
+  transition: 0.45s;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.socials {
+  width: 100%; /* Adjust width to fill the container */
+  max-width: 30rem; /* Limit width for larger screens */
+}
+
+#socialLink {
+  font-size: large;
+  font-weight: 400;
+  color: white;
+  text-align: center; /* Center social links */
+}
+
+#socialLink a {
+  color: white;
+  margin-right: 10px; /* Add space between social links */
+}
+
+#address {
+  font-family: "Star Jedi";
+  letter-spacing: 2px;
+  font-weight: 900;
+  text-align: center; /* Center address */
+}
+
+#addressLink {
+  font-size: medium;
+  font-weight: 300;
+  color: white;
+  text-align: center; /* Center address */
+}
+
+#button-sub {
+  font-size: 1.2rem;
+  height: 38px;
+  width: 100%;
+  max-width: 150px; /* Limit button width for larger screens */
+  background-color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 8px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+}
+
+#button-sub:hover {
+  background-color: #383838;
+}
+
+/* Media queries for responsiveness */
+
+@media screen and (min-width: 768px) {
+  #footer {
+    flex-direction: row; /* Change layout to row for larger screens */
+    justify-content: space-around; /* Align items horizontally */
+    text-align: left; /* Reset text alignment */
+    padding: 20px 50px; /* Adjust padding */
+  }
+
+  .newsletter {
+    width: 50%; /* Adjust width for larger screens */
+    max-width: 400px; /* Limit width for larger screens */
+  }
+
+  .socials {
+    width: 50%; /* Adjust width for larger screens */
+  }
+}
